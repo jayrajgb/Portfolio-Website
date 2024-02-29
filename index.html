@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="utitlity.css">
 </head>
 <body>
     <nav>
@@ -17,17 +16,17 @@
         </div>
         <div class="nav-right">
             <ul>
-                <li class=""><a href="">HOME</a></li>
-                <li class=""><a href="">ABOUT</a></li>
-                <li class=""><a href="">PORTFOLIO</a></li>
-                <li class=""><a href="">RESUME</a></li>
-                <li class=""><a href="">CONTACT</a></li>
+                <li class=""><a href="#home">HOME</a></li>
+                <li class=""><a href="#about">ABOUT</a></li>
+                <li class=""><a href="#skills">PORTFOLIO</a></li>
+                <li class=""><a href="./resume/Jayraj_Borate_VIT.pdf" target="_blank">RESUME</a></li>
+                <li class=""><a href="#footer">CONTACT</a></li>
             </ul>
             <img src="" alt="">
         </div>
     </nav>
     <main>
-        <div class="home">
+        <div id="home" class="home">
             <div class="intro">
                 <h1>JAYRAJ BORATE</h1>
                 <h2>WEB DEVELOPER</h2>
@@ -40,7 +39,7 @@
                 <img class="photograph" src="./assets/PROFILE.jpg" alt="photograph">
             </div>
         </div>
-        <div class="section">
+        <div id="about" class="section">
             <div class="section-image">
                 <img class="image-style" src="./assets/laptop2.jpg" alt="about">
             </div>
@@ -51,7 +50,7 @@
             </div>
         </div>
 
-        <div class="skills">
+        <div id="skills" class="skills">
             <h1 class="header">Skills</h1>
             <div class="skill-container">
                 
@@ -190,7 +189,7 @@
             </div>
         </div>
 
-        <div class="projects">
+        <div id="projects" class="projects">
             <h1 class="header">Projects</h1>
             <div class="project-container">
                 <div class="project-item">
@@ -237,7 +236,7 @@
         
     </main>
 
-    <footer>
+    <footer id="footer">
         <div class="footer">
             <h1 class="header">Contact me</h1>
             <form action="">
@@ -274,6 +273,6 @@
         
     </footer>
     
-
+    <script src="script.js"></script>
 </body>
 </html>
